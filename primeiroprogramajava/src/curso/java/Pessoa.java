@@ -2,8 +2,24 @@ package curso.java;
 
 public class Pessoa{
 	
-	private String nome;
 	private Long id;
+	private String nome;
+	private int idade;
+	private String sobrenome;
+	
+	
+	public int getIdade() {
+		return idade;
+	}
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+	public String getSobrenome() {
+		return sobrenome;
+	}
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
+	}
 	public String getNome() {
 		return nome;
 	}
